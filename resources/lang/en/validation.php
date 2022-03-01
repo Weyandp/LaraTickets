@@ -50,7 +50,7 @@ return [
         'string' => 'The :attribute must be greater than :value characters.',
         'array' => 'The :attribute must have more than :value items.',
     ],
-    'gte' => [
+   # 'gte' => [
         'numeric' => 'The :attribute must be greater than or equal :value.',
         'file' => 'The :attribute must be greater than or equal :value kilobytes.',
         'string' => 'The :attribute must be greater than or equal :value characters.',
@@ -70,19 +70,19 @@ return [
         'string' => 'The :attribute must be less than :value characters.',
         'array' => 'The :attribute must have less than :value items.',
     ],
-    'lte' => [
+   # 'lte' => [
         'numeric' => 'The :attribute must be less than or equal :value.',
         'file' => 'The :attribute must be less than or equal :value kilobytes.',
         'string' => 'The :attribute must be less than or equal :value characters.',
         'array' => 'The :attribute must not have more than :value items.',
     ],
-    'max' => [
+   # 'max' => [
         'numeric' => 'The :attribute may not be greater than :max.',
         'file' => 'The :attribute may not be greater than :max kilobytes.',
         'string' => 'The :attribute may not be greater than :max characters.',
         'array' => 'The :attribute may not have more than :max items.',
     ],
-    'mimes' => 'The :attribute must be a file of type: :values.',
+   # 'mimes' => 'The :attribute must be a file of type: :values.',
     'mimetypes' => 'The :attribute must be a file of type: :values.',
     'min' => [
         'numeric' => 'The :attribute must be at least :min.',
